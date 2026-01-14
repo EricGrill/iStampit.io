@@ -1,9 +1,7 @@
 {
   "private": true,
   "workspaces": [
-    "istampit-web",
-    "istampit-action",
-    "istampit-cli"
+    "istampit-web"
   ],
   "scripts": {
     "vercel-build": "npm --workspace istampit-web run build",

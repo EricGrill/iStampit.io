@@ -27,7 +27,7 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - name: Install dependencies
-        run: npm ci --workspaces
+        run: npm ci
 
       - name: Validate and clean ledger
         run: |
